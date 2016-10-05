@@ -1,0 +1,8 @@
+CREATE TABLE contacts (
+contactID INT UNSIGNED NOT NULL AUTO_INCREMENT,
+first_name VARCHAR(25) NOT NULL,
+family_name VARCHAR(25) NOT NULL,
+email VARCHAR(100) NOT NULL,
+comments TEXT NOT NULL,
+PRIMARY KEY (contactID)
+);

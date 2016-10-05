@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_contact_adm" value="name:contactID;datatype:int,name:email;datatype:string,name:post;datatype:string,name:telephone;datatype:string" />
+</info>

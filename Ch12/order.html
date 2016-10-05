@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Order form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+body {font-family: Verdana, Arial, Helvetica, sans-serif;color:#000;background:#fff;}
+h1 {color:#fc0; font-size: 125%;}
+p, tr {font-size: 85%;}
+p {width: 450px;}
+#address {width: 270px;}
+</style>
+</head>
+
+<body>
+<h1>ED's Online Deli</h1>
+<p>Today's special is a Roquefort &amp; Cranberry croissant with latte. Please indicate how many you would like to order: </p>
+<form name="form1" id="form1" method="post" action="confirmation.php">
+<table width="400" border="0">
+<tr>
+<td>Croissants:</td>
+<td>Roquefort &amp; Cranberry $2.50 </td>
+<td><input name="roqCran" type="text" id="roqCran" size="3" maxlength="2" /></td>
+</tr>
+<tr>
+<td>Coffee:</td>
+<td>Latte $1.89 </td>
+<td><input name="latte" type="text" id="latte" size="3" maxlength="2" /></td>
+</tr>
+<tr>
+<td>Name:</td>
+<td colspan="2"><input name="name" type="text" id="name" /></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td colspan="2"><input name="address" type="text" id="address" /></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="2"><input type="submit" name="Submit" value="Place order" /></td>
+</tr>
+</table>
+<p>&nbsp;</p>
+</form>
+</body>
+</html>
